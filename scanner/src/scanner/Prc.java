@@ -37,7 +37,7 @@ public class Prc {
 				break;
 			}
 				System.out.println("안녕");
-		
+		System.out.println("수정");
 			
 		}
 	
