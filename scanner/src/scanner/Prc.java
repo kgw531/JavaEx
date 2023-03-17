@@ -36,7 +36,7 @@ public class Prc {
 			if("q".equals(scan.next())) {
 				break;
 			}
-				
+				System.out.println("안녕");
 		
 			
 		}
