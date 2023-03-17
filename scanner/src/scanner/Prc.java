@@ -36,8 +36,9 @@ public class Prc {
 			if("q".equals(scan.next())) {
 				break;
 			}
-				System.out.println("안녕");
-		System.out.println("수정");
+				System.out.println("수정할꼐요.");
+				
+		
 			
 		}
 	
