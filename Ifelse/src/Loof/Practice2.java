@@ -7,10 +7,10 @@ public class Practice2 {
 		int j = 0;
 		for(i = 1; i < 6; i++) {
 			System.out.print("*");
-			for(j = 0; j < 6; j++) {
+			for(j = 1; j < i; j++) {
 				System.out.print("*");	
 			}
-			
+			System.out.println();
 		}
 
 }
