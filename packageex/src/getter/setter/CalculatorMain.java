@@ -9,8 +9,6 @@ public class CalculatorMain {
 		
 		Calculator.plus(1, 2);
 		Calculator.minus(3, 1);
-		
-
-	}
+		}
 
 }

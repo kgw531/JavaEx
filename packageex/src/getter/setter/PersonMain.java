@@ -9,6 +9,7 @@ public class PersonMain {
 		// p.nation = "한국"; -> 컴파일 오류, 상수필드의 값을 변경할 수 없다.
 		p.name = "홍사원";
 		
+		
 		System.out.println("파이 값 : " + Person.PI);
 		System.out.println("지구의 반지름 : " + Person.ERRTH_RADIUS + "km");
 		

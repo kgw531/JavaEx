@@ -23,7 +23,7 @@ public class Ex03 {
 //		
 		
 		// 이건 선생님이 확인
-		System.out.println(str.charAt(0));
+		System.out.println(str.charAt(3));
 		
 	}
 }
