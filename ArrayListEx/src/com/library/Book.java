@@ -1,26 +1,24 @@
 package com.library;
 
 public class Book {
-	private String title; // 책제목
-	private String author; // 작가
-	private boolean isRent = false; // 대여여부
+	
+	private String title;		// 책제목
+	private String author;		// 작가
+	private boolean isRent = false;		// 대여여부
+	
+	@Override
+	public String toString() {
+		String str = "";
+		if(isRent) {
+			str = "대여중";
+		}
+		return getTitle() +"/"+ getAuthor() + "/" + str;
+	}
 	
 	public Book(String title, String author) {
 		this.title = title;
 		this.author = author;
 	}
-	
-	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		String str = "";
-		if(isRent == true) {
-			str = "대여중";
-		}
-		return getTitle() + "/" + getAuthor() + str;
-	}
-	
 	
 	public String getTitle() {
 		return title;
@@ -40,4 +38,5 @@ public class Book {
 	public void setRent(boolean isRent) {
 		this.isRent = isRent;
 	}
+	
 }
