@@ -15,12 +15,8 @@ public class App {
 	public static void main(String[] args) {
 		
 		App app = new App();
-		Library lib = new Library();
-//		List<Book> list = dao.getList(); // 임포트할 때 조심해라
-//		for(Book book : list) {
-//			System.out.println(book.toString());
-//		}
-		System.out.println(lib.toString());
+		Library lib = new Library("DB");
+		
 		
 		
 		//  로그인 반복 시
